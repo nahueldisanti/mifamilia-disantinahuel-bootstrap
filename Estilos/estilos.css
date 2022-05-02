@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url(//db.onlinewebfonts.com/c/4a633a8efda614b0de398f042be3a396?family=Posterama1927W01-Black);
+
+@font-face {
+    font-family: "Posterama1927W01-Black";
+    src: url("//db.onlinewebfonts.com/t/4a633a8efda614b0de398f042be3a396.eot");
+    src: url("//db.onlinewebfonts.com/t/4a633a8efda614b0de398f042be3a396.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4a633a8efda614b0de398f042be3a396.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4a633a8efda614b0de398f042be3a396.woff") format("woff"), url("//db.onlinewebfonts.com/t/4a633a8efda614b0de398f042be3a396.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4a633a8efda614b0de398f042be3a396.svg#Posterama1927W01-Black") format("svg");
+}
+
+.navbar {
+    background-color: #1f2e5e !important;
+    background-image: url(Multimedia/Imagenes/tramita.png) !important;
+}
+
+.navbar a {
+    color: #fff;
+    text-transform: uppercase !important;
+    font-family: Posterama1927W01-Black; 
+}
+
+
+.carousel-inner img {
+    width: 100%;
+    max-height: 460px;
+}
+
+.carousel-inner{
+ height: 500px;
+ width: 500px;
+}
+
+/* NOSOTROS */
+.jumbotron{
+
+    background-image: url(../Multimedia/Imagenes/pizza\ 1.jpg);
+    background-size: cover;
+    position: center;
+    height: 600px;
+    color: black ;
+    border-radius: 0px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.jumbotron p{
+    height: 10px;
+    font-family: Posterama1927W01-Black;
+    font-size: 20px;
+}
+
+.jumbotron h1{
+    font-family: Posterama1927W01-Black;
+}
+
+/* Media Querys*/
+
+/* Vista PC INDEX */
+
+@media only screen and (min-width:1280px){
+
+    /* INDEX */
+
+    .gridContainer {
+
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        grid-template-rows: repeat(3, auto);
+        }
+
+    /* Header */
+
+
+
+    /* FOTO */
+
+    section{
+        grid-column: 1 / 7;
+
+    }
+    
+
+    /* Footer */
+
+
+    footer{
+        width: 100%;
+        height: 500px;
+        background-color: #1f2e5e;
+        color: white;
+        font-family: Posterama1927W01-Black; 
+        font-size: 50px;
+        text-align: center;
+        grid-column: 1 / 7;
+
+    }
+
+    .container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1140px;
+        width: 85vw;
+        box-sizing: border-box;
+        line-height: 16px;
+        z-index: auto;
+    }
+    .footer__superior{
+        display: flex;
+        padding-top: 60px;
+        padding-bottom: 110px;
+    }
+
+    .footer__logo{
+        height: 130px;
+    }
+
+    .footer__col{
+        margin-right: 8.33333%;
+        flex: 25% 0 0;
+        font-family: Posterama1927W01-Black; 
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    .footer__titulo{
+        text-transform: uppercase;
+        font-family: Posterama1927W01-Black; 
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43px;
+        padding-bottom: 10px;
+    }
+
+    footer ul{
+        list-style: none;
+    }
+
+    footer ul li{
+        font-family: Posterama1927W01-Black; 
+        color: #fff;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 43px;
+        text-decoration: none;
+
+    }
+
+    footer ul li a{
+        color: white;
+        font-size: 34px;
+    }
+    .footer__bajo{
+        display: flex;
+        padding-bottom: 30px;
+        line-height: 16px;
+    }
+
+    .whatsapp{
+        height: 45px;
+        width: 45px;
+        font-size: 45px;
+        line-height: 40px;
+        background-color: #fff;
+        color: #1f2e5e;
+        text-align: center;
+        border: 7px solid #fff;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+        border-radius: 125%;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-delay: 0s;
+        animation-direction: alternate;
+        animation-iteration-count:infinite;
+    }
+
+    /* NOSOTROS */
+    /* MENU */
+    /*UBICACION */
+    /* CONTACTO*/
+
+}
+
+@media only screen and (min-width: 801px) and (max-width:1279px) {
+
+    /*INDEX*/ 
+
+    .gridContainer {
+
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        grid-template-rows: repeat(3, auto);
+        }
+
+    /* Header */
+
+    
+
+    /* Footer */
+
+
+    footer{
+        width: 100%;
+        height: 500px;
+        background-color: #1f2e5e;
+        color: white;
+        font-family:Posterama1927W01-Black; 
+        font-size: 50px;
+        text-align: center;
+        grid-column: 1 / 7;
+
+    }
+
+    .container{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1140px;
+        width: 85vw;
+        box-sizing: border-box;
+        line-height: 16px;
+        z-index: auto;
+    }
+    .footer__superior{
+        display: flex;
+        padding-top: 60px;
+        padding-bottom: 110px;
+    }
+
+    .footer__logo{
+        height: 130px;
+    }
+
+    .footer__col{
+        margin-right: 8.33333%;
+        flex: 25% 0 0;
+        font-family: Posterama1927W01-Black; 
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    .footer__titulo{
+        text-transform: uppercase;
+        font-family: Posterama1927W01-Black; 
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43px;
+        padding-bottom: 10px;
+    }
+
+    footer ul{
+        list-style: none;
+    }
+
+    footer ul li{
+        font-family: Posterama1927W01-Black; 
+        color: #fff;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 43px;
+        text-decoration: none;
+
+    }
+
+    footer ul li a{
+        color: white;
+        font-size: 34px;
+    }
+    .footer__bajo{
+        display: flex;
+        padding-bottom: 30px;
+        line-height: 16px;
+    }
+
+    /*Boton whatsapp*/
+
+    .whatsapp{
+        height: 45px;
+        width: 45px;
+        font-size: 45px;
+        line-height: 40px;
+        background-color: #fff;
+        color: #1f2e5e;
+        text-align: center;
+        border: 7px solid #fff;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+        border-radius: 125%;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-delay: 0s;
+        animation-direction: alternate;
+        animation-iteration-count:infinite;
+    }
+
+    /* NOSOTROS */
+    /* MENU */
+    /*UBICACION */
+    /* CONTACTO*/
+
+}
+
+
+/*Tablet y celulares grandes*/
+
+@media only screen and (min-width: 650px) and (max-width:800px) {
+    
+   
+
+    footer{
+        width: 100%;    
+        height: 100%;
+        background-color: #1f2e5e;
+        color: white;
+        font-family:Posterama1927W01-Black; 
+        font-size: 50px;
+        text-align: center;
+        grid-column: 1 / 3;
+        grid-row: 4;
+
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1140px;
+        width: 85vw;
+        box-sizing: border-box;
+        line-height: 16px;
+        z-index: auto;
+    }
+    .footer__superior{
+        display: flex;
+        padding-top: 60px;
+        padding-bottom: 110px;
+    }
+
+    .footer__logo{
+        height: 130px;
+    }
+
+    .footer__col{
+        display: flex;
+        margin-right: 8.33333%;
+        flex: 25% 0 0;
+        font-family: Posterama1927W01-Black; 
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    .footer__titulo{
+        text-transform: uppercase;
+        font-family: Posterama1927W01-Black; 
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 43px;
+        padding-bottom: 10px;
+    }
+
+    footer ul{
+        list-style: none;
+    }
+
+    footer ul li{
+        font-family: Posterama1927W01-Black; 
+        color: #fff;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 43px;
+        text-decoration: none;
+
+    }
+
+    footer ul li a{
+        color: white;
+        font-size: 34px;
+    }
+    .footer__bajo{
+        display: flex;
+        padding-bottom: 30px;
+        line-height: 16px;
+    }
+
+    /*Boton whatsapp*/
+
+    .whatsapp{
+        height: 35px;
+        width: 35px;
+        font-size: 35px;
+        line-height: 40px;
+        background-color: #fff;
+        color: #1f2e5e;
+        text-align: center;
+        border: 7px solid #fff;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+        border-radius: 125%;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-delay: s;
+        animation-direction: alternate;
+        animation-iteration-count:infinite;
+    }
+
+    /* NOSOTROS */
+    /* MENU */
+    /*UBICACION */
+    /* CONTACTO*/
+ 
+}
+
+
+/* CELULARES CHICOS */
+@media only screen and (max-width: 650px){
+
+    
+
+    /* Footer */
+
+
+    footer{
+        width: 100%;
+        height: 100%;
+        background-color: #1f2e5e;
+        color: white;
+        font-family: Posterama1927W01-Black; 
+        font-size: 50px;
+        text-align: center;
+        grid-column: 1 / 3;
+        grid-row: 4;
+
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1140px;
+        width: 85vw;
+        box-sizing: border-box;
+        line-height: 16px;
+        z-index: auto;
+    }
+    .footer__superior{
+        display: flex;
+        padding-top: 60px;
+        padding-bottom: 110px;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .footer__logo{
+        height: 230px;
+        margin-bottom: 20px;
+    }
+
+    .footer__col{
+        margin-right: 8.33333%;
+        flex: 25% 0 0;
+        font-family: Posterama1927W01-Black; 
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+
+    .footer__titulo{
+        text-transform: uppercase;
+        font-family: Posterama1927W01-Black; 
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 43px;
+        padding-bottom: 10px;
+    }
+
+    footer ul{
+        list-style: none;
+    }
+
+    footer ul li{
+        font-family: Posterama1927W01-Black; 
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 43px;
+        text-decoration: none;
+
+    }
+
+    footer ul li a{
+        color: white;
+        font-size: 20px;
+    }
+
+    .footer__bajo{
+        display: flex;
+        padding-bottom: 30px;
+        line-height: 16px;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*Boton whatsapp*/
+
+    .whatsapp{
+        height: 30px;
+        width: 30px;
+        font-size: 30px;
+        line-height: 30px;
+        background-color: #fff;
+        color: #1f2e5e;
+        text-align: center;
+        border: 7px solid #fff;
+        position: fixed;
+        right: 40px;
+        bottom: 100px;
+        border-radius: 90%;
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-delay: 0s;
+        animation-direction: alternate;
+        animation-iteration-count:infinite;
+    }
+
+    
+
+    /* NOSOTROS */
+    /* MENU */
+    /*UBICACION */
+    /* CONTACTO*/
+ 
+}
+
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
