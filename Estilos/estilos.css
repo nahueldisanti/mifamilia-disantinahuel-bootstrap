@@ -39,13 +39,37 @@
 .jumbotron p{
     height: 10px;
     font-family: Posterama1927W01-Black;
-    font-size: 2px;
 }
 
 .jumbotron h1{
     font-family: Posterama1927W01-Black;
 }
 
+/* UBICACION */
+
+.textos__nosotros{
+    font-family: Posterama1927W01-Black;
+    color:#1f2e5e;
+    font-feature-settings: "ss04" 1,"ss06" 1,"ss08" 1,"ss09" 1;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 76px;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 85vw;
+    justify-content: center;
+}
+
+.mapa{
+    right: 80px;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
 /* Media Querys*/
 
 /* Vista PC INDEX */
@@ -276,7 +300,7 @@
     .whatsapp{
         height: 45px;
         width: 45px;
-        font-size: 45px;
+        font-size: 35px;
         line-height: 40px;
         background-color: #fff;
         color: #1f2e5e;
