@@ -23,16 +23,6 @@
 }
 
 
-.carousel-inner img {
-    width: 100%;
-    max-height: 460px;
-}
-
-.carousel-inner{
- height: 500px;
- width: 500px;
-}
-
 /* NOSOTROS */
 .jumbotron{
 
@@ -49,7 +39,7 @@
 .jumbotron p{
     height: 10px;
     font-family: Posterama1927W01-Black;
-    font-size: 20px;
+    font-size: 2px;
 }
 
 .jumbotron h1{
@@ -160,23 +150,27 @@
     }
 
     .whatsapp{
-        height: 45px;
-        width: 45px;
+        height: 50px;
+        width: 50px;
         font-size: 45px;
         line-height: 40px;
         background-color: #fff;
         color: #1f2e5e;
+        border: 6px solid #fff;
         text-align: center;
-        border: 7px solid #fff;
         position: fixed;
-        right: 40px;
+        right: 80px;
         bottom: 40px;
-        border-radius: 125%;
+        border-radius: 300%;
         animation-duration: 2s;
         animation-name: aparecer;
         animation-delay: 0s;
         animation-direction: alternate;
         animation-iteration-count:infinite;
+    }
+
+    .fa-brands fa-whatsapp{
+        text-align: center;
     }
 
     /* NOSOTROS */
@@ -392,8 +386,8 @@
     /*Boton whatsapp*/
 
     .whatsapp{
-        height: 35px;
-        width: 35px;
+        height: 45px;
+        width: 45px;
         font-size: 35px;
         line-height: 40px;
         background-color: #fff;
@@ -513,8 +507,8 @@
     /*Boton whatsapp*/
 
     .whatsapp{
-        height: 30px;
-        width: 30px;
+        height: 45px;
+        width: 45px;
         font-size: 30px;
         line-height: 30px;
         background-color: #fff;
